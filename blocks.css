@@ -1,0 +1,168 @@
+body {
+    font: 100% Verdana, Lucida Sans, sans-serif;
+    margin: 20px;
+    line-height: 26px;
+}
+
+td.quote {
+	float: right;
+	font-style: italic;
+	font-size: 70%}
+
+img.floating {
+  float: left;
+  padding: 10px;
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar, #bottom, .menuitem {
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#top {
+    background-color: #228B22; /*Forest Green; alt: #04AA6D; */
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#menubar {
+    width: 200px;
+    float: left
+}
+
+#main {
+    padding: 10px;
+    margin: 0 210px;
+}
+
+#sidebar {
+    background-color: #DAA520; /* GoldenRod; Alt: #87cefa; LightSkyBlue ; alt: #32a4e7; */
+    color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    border-radius: 25px;
+}
+
+#bottom {
+    border: 1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+#top h1, #top p, #menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.menuitem a {
+	text-decoration: none;}  
+
+.menuitem:hover {
+    background-color: #ffffff;
+}
+
+ul.paperlist {
+  border-left: 5px solid red;
+  background-color: #f1f1f1;
+  list-style-type: square;
+  padding: 10px 20px;
+}
+
+.paper {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    list-style-type: square;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.paper:hover {
+    background-color: #ffffff;
+}
+
+.paper a {
+	text-decoration: underline;} 
+
+table.papertable {
+	border-collapse: collapse;
+   width: 100%;
+}
+
+table.papertable tr {
+	border-top-style: dotted;
+}
+
+table.papertable tr:nth-child(even) {
+	background-color: lavender;}
+
+table.papertable tr:hover {
+	background-color: lightblue;}
+
+td.linkcell {
+	width: 15%;
+	vertical-align: top;
+}
+
+td.datecell {
+	width: 15%;
+	vertical-align: top;
+   font-family: "Lucida Console", "Courier New", monospace;
+   font-weight: bold;
+   color: DodgerBlue;
+}
+
+a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+	 color: red;
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        width: auto;
+        position: relative;
+    } 
+    #main {
+        margin-right: 0;
+    }    
+       
+}
+
+@media (max-width: 600px) {
+    #menubar {
+        width: auto;
+        float: none;
+    }
+    #main {
+        margin: 0;
+    }    
+}
