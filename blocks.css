@@ -29,7 +29,7 @@ img.floating {
 }
 
 #top {
-    background-color: #228B22; /*Forest Green; alt: #04AA6D; */
+    background-color: #008ECC; /* #228B22; Forest Green; alt: #04AA6D; */
     color: #ffffff;
     padding: 15px;
     border-radius: 25px;
@@ -76,7 +76,6 @@ img.floating {
     border: 1px solid #d4d4d4;
     list-style-type: none;
     padding: 2px;
-    cursor: pointer;
 }
 
 .menuitem a {
